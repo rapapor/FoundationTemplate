@@ -1,0 +1,212 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+@include motion-ui-transitions;
+@include orbit-wrapper;
+@include orbit-container;
+@include orbit-slide;
+
+
+* {
+	margin: 0;
+}
+
+.menu{
+
+	ul{
+		list-style: none;
+		margin: 0;
+
+		li{	
+			
+			
+			border: 0;
+			vertical-align: baseline;
+			float: left;
+		
+			a{ 
+				padding: 10px;
+				font-size: 100%;
+				font: inherit;
+				color: white;
+				
+						
+			}
+		}	
+	}
+}
+
+
+.background_menu{
+	background-color: black;
+	border-radius: 20px 20px 0px 0px;
+}
+	
+.header {
+	
+	height: 400px;
+	width: 1200px;
+    background-image: url("../img/samolot.jpg");
+    border-radius:0px 0px 20px 20px;
+}
+
+form {
+	
+		color: white;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+
+
+
+
+.email-section{
+	float: left;
+	margin-right: 20px;
+}
+
+.pass-section{
+	float: left;
+}
+
+
+#send{
+	height: 39px;	
+}
+
+.formstyle{
+	text-align: center;
+}
+
+.center-form{
+	width: 550px;
+
+	input {
+		border-radius: 20px;
+	}
+}
+
+
+
+ .news-post{
+ 	margin-top: 40px ;
+ 	img{ 
+ 		border-radius: 20px;
+
+	}
+
+ }
+ .news-post p {
+ 	margin-top: 20px;
+ 	background: #e3e3e3;
+ 	border-radius: 20px;
+ }
+
+ .last-news-foto{
+ 	border-radius: 20px;
+
+
+ 	
+ }
+
+ .last-news{
+ 	margin-top: 40px;
+ 	background: #e3e3e3;
+ 	border-radius: 20px;
+ }
+
+ .orbitet{
+ 	margin-top: 40px;
+ }
+
+ .text-orbiter{
+ 	background:#e3e3e3;
+ 	border-radius: 20px; .row{
+ 		border-radius:20px;
+ 	} 
+ 	
+ }
+
+ .footer {
+ 	background: #5a5a5a;
+ 	border-radius: 20px;
+
+ 		ul{
+ 			list-style: none;
+ 			margin-top: 10px;
+ 			li{
+ 				margin: 0;
+ 				a{
+ 					color: black;
+ 				}
+ 			}
+ 		}
+ }
+
+ .footer-form{
+ 	margin-top:50px;
+ }
+.footer-form #send {
+	margin-left: 20px;
+}
+
+.footer_menu{
+	float: left;
+}
+
+.mini {
+	margin-top: 20px;
+	font-size: 60px; 
+
+}
+
+.slidermenu{
+	margin-top: 20px;
+}
